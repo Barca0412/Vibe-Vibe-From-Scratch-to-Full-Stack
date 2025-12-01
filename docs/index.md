@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: "Vibe Coding"
-  text: "人人都能学会的 AI 编程"
+  text: "人人都能学会的 AI 编程 b"
   tagline: "不写代码，也能做产品。从零基础到全栈开发，让 AI 成为你的编程搭档"
   image:
     src: /logo.png
