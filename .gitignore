@@ -12,7 +12,7 @@ cache
 .vitepress/cache
 ai-write-guide
 docs/docs
-
+.pnpm-store
 # Python
 rename_docs.py
 *.pyc

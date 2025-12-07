@@ -2,7 +2,7 @@
 $:
   vscode:
     - runner:
-        cpus: 16
+        cpus: 8
       docker:
         image: docker.cnb.cool/eyre921/default-dev-env:latest
       services:
@@ -13,7 +13,7 @@ $:
         - name: start 1P
           script: 1pctl start all
         - name: install env
-          script: pnpm install && pnpm docs:build 
+          script: pnpm install && pnpm build 
 
 # .cnb.yml
 
