@@ -9,11 +9,16 @@ $:
         - vscode
         - docker
       # 开发环境启动后会执行的任务
+      imports:
+        - https://cnb.cool/eyre921/secret/-/blob/main/edgeone-pages-env.yml
+        - https://cnb.cool/eyre921/secret/-/blob/main/dk.yml
       stages:
         - name: start 1P
           script: 1pctl start all
         - name: install env
           script: pnpm install && pnpm build 
+        - name: droid-key
+          script: dk add $FACTORY_API_KEY
 
 # .cnb.yml
 
