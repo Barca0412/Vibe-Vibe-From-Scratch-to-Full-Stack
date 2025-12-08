@@ -193,7 +193,7 @@ export default withMermaid(defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Eyre921/awesone-vibe-coding-tutorial' }
+      { icon: 'github', link: 'https://github.com/datawhalechina/vibe-vibe' }
     ],
 
     footer: {

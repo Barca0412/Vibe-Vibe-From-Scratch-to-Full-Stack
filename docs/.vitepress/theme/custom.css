@@ -63,3 +63,91 @@
     white-space: nowrap;
   }
 }
+
+/* 四个收获卡片 */
+.outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.outcome-card {
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.outcome-card:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.outcome-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 4px;
+}
+
+.outcome-desc {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .outcome-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 五类人卡片 */
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.audience-card {
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.audience-card:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.audience-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 8px;
+}
+
+.audience-desc {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+/* 平板端 2 列 */
+@media (max-width: 960px) {
+  .audience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 移动端 1 列 */
+@media (max-width: 640px) {
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+}
