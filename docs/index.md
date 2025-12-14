@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: "Vibe Coding"
+  name: "Vibe Vibe"
   text: "人人都能学会的 AI 编程"
   tagline: "不写代码，也能做产品。从零基础到全栈开发，让 AI 成为你的编程搭档"
   image:
@@ -55,9 +55,7 @@ features:
     --vp-home-hero-image-filter: blur(68px);
   }
 }
-</style>
 
-<style>
 .VPHero .actions .VPButton.brand {
   background-color: #45523E;
   border-color: #45523E;
@@ -98,9 +96,6 @@ features:
 | 5. 进阶 | 版本控制、部署、安全意识 |
 | 6. 路径 | 不同背景的学习建议 |
 
-<div style="margin-top: 1rem;">
-<a href="/Basic/" style="display: inline-block; padding: 10px 20px; background: linear-gradient(120deg, #15a051ff 0%, #2eb3dfff 100%); color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">开始基础篇 →</a>
-</div>
 
 </div>
 
@@ -126,9 +121,6 @@ features:
 | 9-10. 质量 | 测试策略、部署运维 |
 | 11-12. 进阶 | 发布流程、高级优化 |
 
-<div style="margin-top: 1rem;">
-<a href="/Advanced/" style="display: inline-block; padding: 10px 20px; background: linear-gradient(120deg, #f5576cff 0%, #f093fbff 100%); color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">开始进阶篇 →</a>
-</div>
 
 </div>
 
@@ -137,12 +129,12 @@ features:
 ## 项目状态
 
 ::: warning 内部预览版本
-- 本版本为**内部预览版**，并非正式发行版本
+- 本版本为**内部预览版**，并非正式发行版本，不代表最终品质
 - 正式版本需要等待后续对每一个章节进行深度优化、补充互动教学内容、以及完善实战练习环节
-- 如发现问题欢迎通过 [GitHub Issues](https://github.com/Eyre921/awesone-vibe-coding-tutorial/issues) 反馈
+- 如发现问题欢迎通过 [GitHub Issues](https://github.com/datawhalechina/vibe-vibe/issues) 反馈
 :::
 
-::: tip 正式版预告：Web 互动教学
+::: tip 进阶版预告：Web 互动教学
 我们正在开发**交互式教学内容**，正式版将支持：
 - **可视化原理演示** —— 通过动画和交互图解，直观理解前后端交互、请求响应流程
 - **数据库交互沙盒** —— 在浏览器中体验数据库查询、表关系设计，理解数据流转
@@ -179,26 +171,48 @@ features:
 
 ## 技术栈一览
 
-<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
 
-**基础篇**：HTML/CSS/JS 基础 · AI 工具 (ChatGPT/Claude/Cursor) · 版本控制入门 · 静态部署
+<div style="padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #667eea11 0%, #764ba211 100%); border: 1px solid #667eea33;">
+  <h4 style="margin-top: 0; margin-bottom: 1rem; color: #667eea;">基础篇</h4>
+  <ul style="margin: 0; padding-left: 1.5rem;">
+    <li><strong>前端基础</strong>：HTML/CSS/JS</li>
+    <li><strong>AI 工具</strong>：ChatGPT/Claude/Cursor等</li>
+    <li><strong>版本控制</strong>：Git 基础操作</li>
+    <li><strong>部署</strong>：静态网站部署</li>
+  </ul>
+</div>
 
-**进阶篇**：Next.js · TypeScript · PostgreSQL + Prisma · Tailwind CSS + shadcn/ui · NextAuth.js · Docker · Vercel · Edgeone
+<div style="padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #f093fb11 0%, #f5576c11 100%); border: 1px solid #f093fb33;">
+  <h4 style="margin-top: 0; margin-bottom: 1rem; color: #f093fb;">进阶篇</h4>
+  <ul style="margin: 0; padding-left: 1.5rem;">
+    <li><strong>框架</strong>：Next.js + TypeScript</li>
+    <li><strong>数据层</strong>：PostgreSQL + Prisma</li>
+    <li><strong>UI 框架</strong>：Tailwind CSS + shadcn/ui</li>
+    <li><strong>认证</strong>：NextAuth.js</li>
+    <li><strong>部署</strong>：Docker + Vercel/Edgeone</li>
+  </ul>
+</div>
 
 </div>
+
+## 贡献者名单
+
+感谢以下成员为本项目做出的贡献：
+
+| 姓名 | 职务 | 简介 |
+|------|------|------|
+| <a href="http://www.guohaoqi.cn" target="_blank">齐国皓</a> | 项目负责人 & 核心贡献者 | 现就读于新加坡国立大学计算机学院, 湖南大学金融科技协会创始人 |
+| <a href="https://www.hangkangfu.cn/" target="_blank">符航康</a> | 项目负责人 & 核心贡献者 | 湖南大学金融科技协会创始成员, 一名 AI 原生的年轻人，湖南大学信息科学与工程学院24级本科生 |
+| 陈俊希 | 「优质文章篇」板块贡献者 | 湖南大学金融科技协会现任会长，湖南大学金融与统计学院24级本科生 |
+| 金龙 | 「实践篇」板块贡献者 | 北京大学学生创新学社AI俱乐部副部长，北京大学24级研究生 |
+| 舒璐璐 | 「实践篇」板块贡献者 | 湖南大学「麓山人文+」创始人，湖南大学岳麓书院23级本科生 |
 
 ## 如何贡献
 
 本项目欢迎社区贡献：
 
 - 在页面底部评论区反馈问题
-- 提交 [GitHub Issues](https://github.com/Eyre921/awesone-vibe-coding-tutorial/issues) 
+- 提交 [GitHub Issues](https://github.com/datawhalechina/vibe-vibe/issues)
 - 提交 Pull Request 完善内容
 
-<div style="text-align: center; margin: 3rem 0;">
-  <p style="font-size: 1.2rem; margin-bottom: 1.5rem;">准备好开始你的 Vibe Coding 之旅了吗？</p>
-  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="/Basic/" style="display: inline-block; padding: 14px 28px; background: linear-gradient(120deg, #15a051ff 0%, #2eb3dfff 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">零基础从这里开始</a>
-    <a href="/Advanced/" style="display: inline-block; padding: 14px 28px; background: linear-gradient(120deg,#f5576c  0%, #f093fb 100%); color: white; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">有基础直接进阶</a>
-  </div>
-</div>
