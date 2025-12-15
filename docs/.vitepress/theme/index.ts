@@ -13,7 +13,7 @@ export default {
   
   // 1. 布局扩展：注入 Giscus 评论
   Layout: () => {
-    const { frontmatter } = useData();
+    const { frontmatter, isDark } = useData();
     
     return h(DefaultTheme.Layout, null, {
       'doc-after': () => {
@@ -31,7 +31,7 @@ export default {
             reactionsEnabled: "1",
             emitMetadata: "1",
             inputPosition: "bottom",
-            theme: "preferred_color_scheme",
+            theme: isDark.value ? "dark_dimmed" : "light",
             lang: "zh-CN",
             loading: "lazy"
           })
