@@ -1,27 +1,89 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 // @ts-ignore
 import timeline from "vitepress-markdown-timeline";
+import { writeFile } from 'node:fs/promises'
+import { join as joinPath } from 'node:path'
+
+const SITE_TITLE = "Vibe Coding 全栈实战教程"
+const SITE_DESCRIPTION = "从 Next.js 到 AI 辅助开发，用 Vibe Coding 的方式重塑你的编程工作流。涵盖零基础入门、全栈开发、数据库、部署运维等 12 个核心章节。"
+
+function normalizeSiteUrl(url: string): string {
+  return url.trim().replace(/\/+$/, '');
+}
+
+function resolveSiteUrl(): string {
+  const raw =
+    process.env.SITE_URL ||
+    process.env.EDGEONE_PAGES_URL ||
+    process.env.DEPLOY_URL ||
+    process.env.URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '');
+
+  if (!raw) return '';
+  const normalized = normalizeSiteUrl(raw);
+  if (/^https?:\/\//i.test(normalized)) return normalized;
+  return `https://${normalized}`;
+}
+
+const SITE_URL = resolveSiteUrl();
+
+function urlPathForPage(relativePath: string): string {
+  const p = relativePath.replace(/\\/g, '/');
+  if (p === 'index.md') return '/';
+  if (p.endsWith('/index.md')) return `/${p.slice(0, -'/index.md'.length)}/`;
+  return `/${p.replace(/\.md$/, '.html')}`;
+}
+
 
 export default withMermaid(defineConfig({
-  title: "Vibe Coding 全栈实战教程",
-  description: "从 Next.js 到 AI 辅助开发，用 Vibe Coding 的方式重塑你的编程工作流。涵盖零基础入门、全栈开发、数据库、部署运维等 12 个核心章节。",
+  lang: 'zh-CN',
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   
   // 排除 docs/docs 目录不构建
   srcExclude: ['**/docs/**'],
   
   head: [
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-DyDGMBlEJg' }],
     ['meta', { name: 'keywords', content: 'Vibe Coding, 全栈开发, Next.js, TypeScript, React, Prisma, AI编程, Cursor, Claude' }],
     ['meta', { name: 'author', content: 'Eyre' }],
-    ['meta', { property: 'og:title', content: 'Vibe Coding 全栈实战教程' }],
-    ['meta', { property: 'og:description', content: '从 Next.js 到 AI 辅助开发，用 Vibe Coding 的方式重塑你的编程工作流' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }],
     ['link', { rel: 'shortcut icon', href: '/logo.png', type: 'image/png' }],
-    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }],
-    ['link', { rel: 'shortcut icon', href: '/logo.png', type: 'image/png' }],
   ],
+
+  ...(SITE_URL ? { sitemap: { hostname: SITE_URL } } : {}),
+
+  transformHead: ({ pageData }): HeadConfig[] | void => {
+    if (!SITE_URL) return;
+
+    const url = `${SITE_URL}${urlPathForPage(pageData.relativePath)}`;
+    const title = (pageData.frontmatter as any)?.title || pageData.title || SITE_TITLE;
+    const description = (pageData.frontmatter as any)?.description || pageData.description || SITE_DESCRIPTION;
+    const image = `${SITE_URL}/logo.png`;
+
+    return [
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:site_name', content: 'Vibe Vibe' }],
+      ['meta', { property: 'og:locale', content: 'zh_CN' }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['meta', { name: 'twitter:image', content: image }],
+    ];
+  },
+
+  buildEnd: async (siteConfig) => {
+    const sitemapLine = SITE_URL ? `Sitemap: ${SITE_URL}/sitemap.xml` : 'Sitemap: /sitemap.xml';
+    const content = `User-agent: *\nAllow: /\n\n${sitemapLine}\n`;
+    await writeFile(joinPath(siteConfig.outDir, 'robots.txt'), content, 'utf-8');
+  },
 
   // 1. Markdown 增强配置
   markdown: {

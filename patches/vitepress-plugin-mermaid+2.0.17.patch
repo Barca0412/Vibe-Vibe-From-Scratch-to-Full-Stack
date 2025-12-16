@@ -1,0 +1,37 @@
+diff --git a/node_modules/vitepress-plugin-mermaid/dist/mermaid.ts b/node_modules/vitepress-plugin-mermaid/dist/mermaid.ts
+index 1111111..2222222 100644
+--- a/node_modules/vitepress-plugin-mermaid/dist/mermaid.ts
++++ b/node_modules/vitepress-plugin-mermaid/dist/mermaid.ts
+@@ -1,3 +1,9 @@
+ import mermaid, { ExternalDiagramDefinition, MermaidConfig } from "mermaid";
+ 
++// Mermaid keeps global mutable state (config, diagram registry, etc.). In VitePress pages
++// multiple Mermaid components can mount and re-render concurrently (theme toggles, hydration),
++// which can lead to intermittent parse/render failures even when the same diagram later renders fine.
++// Serialize render calls to avoid global-state races.
++let renderQueue: Promise<unknown> = Promise.resolve();
++
+ export const init = async (externalDiagrams: ExternalDiagramDefinition[]) => {
+@@ -12,10 +19,19 @@
+ export const render = async (
+   id: string,
+   code: string,
+   config: MermaidConfig
+ ): Promise<string> => {
+   // await init;
+-  mermaid.initialize(config);
+-  const { svg } = await mermaid.render(id, code);
+-  return svg;
++  const run = async () => {
++    mermaid.initialize(config);
++    const { svg } = await mermaid.render(id, code);
++    return svg;
++  };
++
++  const result = renderQueue.then(run, run);
++  renderQueue = result.then(
++    () => undefined,
++    () => undefined
++  );
++  return result;
+ };
