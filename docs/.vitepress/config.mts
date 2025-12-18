@@ -60,8 +60,13 @@ export default withMermaid(defineConfig({
     if (!SITE_URL) return;
 
     const url = `${SITE_URL}${urlPathForPage(pageData.relativePath)}`;
-    const title = (pageData.frontmatter as any)?.title || pageData.title || SITE_TITLE;
-    const description = (pageData.frontmatter as any)?.description || pageData.description || SITE_DESCRIPTION;
+    const frontmatter = pageData.frontmatter as Record<string, unknown> | undefined;
+    const frontmatterTitle = typeof frontmatter?.title === 'string' ? frontmatter.title : undefined;
+    const frontmatterDescription =
+      typeof frontmatter?.description === 'string' ? frontmatter.description : undefined;
+
+    const title = frontmatterTitle || pageData.title || SITE_TITLE;
+    const description = frontmatterDescription || pageData.description || SITE_DESCRIPTION;
     const image = `${SITE_URL}/logo.png`;
 
     return [
@@ -141,19 +146,7 @@ export default withMermaid(defineConfig({
       { 
         text: '进阶篇', 
         items: [
-          { text: '0. Bootcamp 概念打底', link: '/Advanced/00-bootcamp/' },
-          { text: '1. 概念与准备', link: '/Advanced/01-concept/' },
-          { text: '2. 技术选型与架构', link: '/Advanced/02-tech-stack/' },
-          { text: '3. 前端到后端', link: '/Advanced/03-frontend/' },
-          { text: '4. 数据库与数据', link: '/Advanced/04-database/' },
-          { text: '5. 产品与文档', link: '/Advanced/05-product/' },
-          { text: '6. 认证与安全', link: '/Advanced/06-security/' },
-          { text: '7. API 设计规范', link: '/Advanced/07-api/' },
-          { text: '8. 项目规则与协作', link: '/Advanced/08-workflow/' },
-          { text: '9. 测试与质量', link: '/Advanced/09-testing/' },
-          { text: '10. 部署与运维', link: '/Advanced/10-deploy/' },
-          { text: '11. 发布与复盘', link: '/Advanced/11-review/' },
-          { text: '12. 高级专题', link: '/Advanced/12-advanced/' },
+          { text: '进阶草稿（已下线）', link: '/Advanced/' },
         ]
       },
       { 
@@ -183,19 +176,19 @@ export default withMermaid(defineConfig({
     // 核心：自动生成侧边栏
     sidebar: generateSidebar({
       documentRootPath: 'docs',
+      useTitleFromFrontmatter: true,
       useTitleFromFileHeading: true,
       useFolderTitleFromIndexFile: true, 
       useFolderLinkFromIndexFile: true,
       hyphenToSpace: true,
+      sortMenusByFrontmatterOrder: true,
+      frontmatterOrderDefaultValue: 9999,
       
       manualSortFileNameByPriority: [
         'Basic', 'Advanced', 'Practice', 'Articles',
         'Basic/00-preface', 'Basic/01-awakening', 'Basic/02-mindset', 'Basic/03-technique',
         'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths', 
         'Basic/99-appendix', 'Basic/100-epilogue', 'Basic/101-next-part',
-        'Advanced/00-bootcamp', 'Advanced/01-concept', 'Advanced/02-tech-stack', 'Advanced/03-frontend',
-        'Advanced/04-database', 'Advanced/05-product', 'Advanced/06-security', 'Advanced/07-api',
-        'Advanced/08-workflow', 'Advanced/09-testing', 'Advanced/10-deploy', 'Advanced/11-review', 'Advanced/12-advanced',
         'Practice/01-for-liberal-arts', 'Practice/02-for-stem', 'Practice/03-for-professionals',
         'Practice/10-core-skills', 'Practice/11-ai-agents', 'Practice/12-fullstack-projects', 'Practice/13-tools-integration',
         'Articles/01-company-blogs', 'Articles/02-podcasts', 'Articles/03-research-reports', 'Articles/04-newsletters', 'Articles/05-communities'
