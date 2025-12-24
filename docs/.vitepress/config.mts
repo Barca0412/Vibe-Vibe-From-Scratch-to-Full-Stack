@@ -129,7 +129,7 @@ export default withMermaid(defineConfig({
       manualSortFileNameByPriority: [
         'Basic', 'Advanced', 'Practice', 'Articles',
         'Basic/00-preface', 'Basic/01-awakening', 'Basic/02-mindset', 'Basic/03-technique',
-        'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths', 
+        'Basic/04-practice-0-to-1', 'Basic/05-advanced', 'Basic/06-learning-paths',
         'Basic/99-appendix', 'Basic/100-epilogue', 'Basic/101-next-part',
         'Advanced/00-bootcamp', 'Advanced/01-concept', 'Advanced/02-tech-stack', 'Advanced/03-frontend',
         'Advanced/04-database', 'Advanced/05-product', 'Advanced/06-security', 'Advanced/07-api',
