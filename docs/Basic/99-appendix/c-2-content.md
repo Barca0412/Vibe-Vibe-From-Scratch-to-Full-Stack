@@ -2,6 +2,8 @@
 title: "C.2 开发相关"
 ---
 
+
+![99-appendix_c-2-content.png](../../public/images/Basic/99-appendix_c-2-content.png)
 # C.2 开发相关
 
 这些是软件开发中常用的术语。不需要深入理解，知道大概意思就行。

@@ -2,6 +2,8 @@
 title: "E.3 内容创作类（10 个）"
 ---
 
+
+![99-appendix_e-3-content.png](../../public/images/Basic/99-appendix_e-3-content.png)
 # E.3 内容创作类（10 个）
 
 这些项目适合喜欢写作、创作的人。用 AI 帮你搭建自己的创作平台。

@@ -2,6 +2,8 @@
 title: "第十三章：云服务器运维与项目部署"
 ---
 
+
+![13-vps-ops-deploy_index.png](../../public/images/Advanced/13-vps-ops-deploy_index.png)
 # 第十三章：云服务器运维与项目部署
 ## 序言
 假如你囊中不羞涩，真的去买了一台服务器；或者你发现某云厂商的福利活动，可以领取试用机。

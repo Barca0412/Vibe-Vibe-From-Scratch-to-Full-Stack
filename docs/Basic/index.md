@@ -2,6 +2,8 @@
 title: "基础篇"
 ---
 
+
+![root_index.png](../public/images/Basic/root_index.png)
 # 基础篇
 
 ::: warning 🚧 预览版本说明

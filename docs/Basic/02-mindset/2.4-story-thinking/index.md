@@ -2,6 +2,8 @@
 title: "2.4 故事思维：把用户当作故事的主角"
 ---
 
+
+![02-mindset_2.4-story-thinking_index.png](../../../public/images/Basic/02-mindset_2.4-story-thinking_index.png)
 # 2.4 故事思维：把用户当作故事的主角
 
 在前面的章节中，我们学会了用「任务视角」思考需求，用「逆向思维」识别风险，用「减法思维」聚焦核心。

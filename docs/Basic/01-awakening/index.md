@@ -2,6 +2,8 @@
 title: "第 1 章：觉醒 —— 为什么现在是编程最好的时代"
 ---
 
+
+![01-awakening_index.png](../../public/images/Basic/01-awakening_index.png)
 # 第 1 章：觉醒 —— 为什么现在是编程最好的时代
 
 > **本章目标**：理解 AI 编程的时代背景，完成你的第一个 AI 网页。

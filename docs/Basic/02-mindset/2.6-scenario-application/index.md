@@ -2,6 +2,8 @@
 title: "2.6 场景应用：这些思维工具不只是用来「做产品」的"
 ---
 
+
+![02-mindset_2.6-scenario-application_index.png](../../../public/images/Basic/02-mindset_2.6-scenario-application_index.png)
 # 2.6 场景应用：这些思维工具不只是用来「做产品」的
 
 前面五节，我们学习了五种思维工具：JTBD思维、逆向思维、减法思维、故事思维、灵魂三问。

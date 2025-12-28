@@ -2,6 +2,8 @@
 title: "E.1 个人工具类（10 个）"
 ---
 
+
+![99-appendix_e-1-content.png](../../public/images/Basic/99-appendix_e-1-content.png)
 # E.1 个人工具类（10 个）
 
 不知道做什么？从这里找灵感。每个项目都标注了难度和预计时长，选一个感兴趣的开始吧！

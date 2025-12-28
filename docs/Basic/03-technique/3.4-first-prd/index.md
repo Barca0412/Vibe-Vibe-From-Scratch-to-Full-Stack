@@ -2,6 +2,8 @@
 title: "3.4 编写你的第一份 PRD"
 ---
 
+
+![03-technique_3.4-first-prd_index.png](../../../public/images/Basic/03-technique_3.4-first-prd_index.png)
 # 3.4 编写你的第一份 PRD：整合第二章思考
 
 > **本节目标**：学会将第二章的产品思考成果，转化为 AI 能理解和执行的 PRD 文档

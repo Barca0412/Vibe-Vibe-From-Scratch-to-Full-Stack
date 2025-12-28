@@ -2,6 +2,8 @@
 title: "B.3 交互问题"
 ---
 
+
+![99-appendix_b-3-content.png](../../public/images/Basic/99-appendix_b-3-content.png)
 # B.3 交互问题
 
 页面能显示，但点击、输入等交互没反应？这一节帮你解决最常见的交互问题。

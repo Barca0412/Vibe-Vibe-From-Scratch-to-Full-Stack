@@ -2,6 +2,8 @@
 title: "B.2 CSS/样式问题"
 ---
 
+
+![99-appendix_b-2-content.png](../../public/images/Basic/99-appendix_b-2-content.png)
 # B.2 CSS/样式问题
 
 样式问题不会报红色错误，但会让你的页面「长得不对」。这一节帮你快速定位和解决常见的样式问题。

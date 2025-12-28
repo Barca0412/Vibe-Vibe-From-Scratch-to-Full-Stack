@@ -2,6 +2,8 @@
 title: "1.3 工具初探：AI 编程工具选型指南"
 ---
 
+
+![01-awakening_1.3-tools-guide_index.png](../../../public/images/Basic/01-awakening_1.3-tools-guide_index.png)
 # 1.3 工具初探：AI 编程工具选型指南
 
 现在你已经知道编程没有想象中那么难，心理障碍也破除了。接下来，让我们选择合适的工具开始行动。

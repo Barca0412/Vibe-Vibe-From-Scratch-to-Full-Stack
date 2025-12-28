@@ -2,6 +2,8 @@
 title: "第三章：PRD与文档驱动开发"
 ---
 
+
+![03-prd-doc-driven_index.png](../../public/images/Advanced/03-prd-doc-driven_index.png)
 # 第三章：PRD与文档驱动开发
 ## 序言
 在让 AI 写代码之前，老师傅按住了你想要狂飙的手。他告诉你，**写代码之前，先写文档**。如果没有蓝图，AI 很容易就会像脱缰的野马，生成的代码往往缺乏结构，写出一堆谁也看不懂、改不动的功能。

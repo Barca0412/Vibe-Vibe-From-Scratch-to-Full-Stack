@@ -2,6 +2,8 @@
 title: "2.3 减法思维：MVP不是「最小功能」，而是「最小可验证价值」"
 ---
 
+
+![02-mindset_2.3-subtraction-thinking_index.png](../../../public/images/Basic/02-mindset_2.3-subtraction-thinking_index.png)
 # 2.3 减法思维：MVP不是「最小功能」，而是「最小可验证价值」
 
 在上一节，我们学会了用「逆向思维」提前识别可能的失败原因。

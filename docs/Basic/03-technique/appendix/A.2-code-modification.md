@@ -2,6 +2,8 @@
 title: "A.2 代码修改类模板"
 ---
 
+
+![03-technique_appendix_A.2-code-modification.png](../../../public/images/Basic/03-technique_appendix_A.2-code-modification.png)
 # A.2 代码修改类模板
 
 本节提供修改现有代码的 Prompt 模板，包括功能扩展、代码重构、性能优化和样式调整。

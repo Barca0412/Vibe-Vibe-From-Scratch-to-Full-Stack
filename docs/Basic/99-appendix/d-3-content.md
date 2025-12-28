@@ -2,6 +2,8 @@
 title: "D.3 专用 AI IDE 对比"
 ---
 
+
+![99-appendix_d-3-content.png](../../public/images/Basic/99-appendix_d-3-content.png)
 # D.3 专用 AI IDE 对比
 
 专用 AI IDE 是为「不懂代码的人」设计的。在网页上描述你想要什么，AI 直接给你做出来。这是零基础最友好的方式。

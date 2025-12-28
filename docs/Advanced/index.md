@@ -2,6 +2,9 @@
 title: "进阶篇"
 ---
 
+
+![Advanced_index.png](../public/images/Advanced/Advanced_index.png)
+
 # 进阶篇：全栈实战
 
 本进阶篇以「从零基础到上线的避坑指南」为主线，带你用一条完整的产品交付流程串起全栈开发：环境与工具 → 文档与规划 → UI/UX → 环境变量与数据 → 测试协作 → 部署运维 → 安全与增长。

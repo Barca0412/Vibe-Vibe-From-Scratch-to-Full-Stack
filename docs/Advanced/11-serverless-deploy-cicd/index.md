@@ -2,6 +2,8 @@
 title: "第十一章：无服务器部署与 CI/CD 自动化"
 ---
 
+
+![11-serverless-deploy-cicd_index.png](../../public/images/Advanced/11-serverless-deploy-cicd_index.png)
 # 第十一章：无服务器部署与 CI/CD 自动化
 ## 序言
 你准备上线了，听说要买服务器，但你囊中羞涩，而且不想折腾 Linux 运维。

@@ -2,6 +2,8 @@
 title: "第九章：Localhost 与公网访问"
 ---
 
+
+![09-localhost-public-access_index.png](../../public/images/Advanced/09-localhost-public-access_index.png)
 # 第九章：Localhost 与公网访问
 ## 序言
 你看着电脑上完美的网页，想让朋友惊叹一下。你自信地把浏览器地址栏里的 `http://localhost:3000` 复制发给了微信上的朋友。 一分钟后，朋友回了你一个问号：“打不开啊，你逗我？”

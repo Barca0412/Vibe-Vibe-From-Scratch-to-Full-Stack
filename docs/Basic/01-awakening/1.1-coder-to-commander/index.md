@@ -2,6 +2,8 @@
 title: "1.1 编程已死，编程永生：从 Coder 到 Commander"
 ---
 
+
+![01-awakening_1.1-coder-to-commander_index.png](../../../public/images/Basic/01-awakening_1.1-coder-to-commander_index.png)
 # 1.1 编程已死，编程永生：从 Coder 到 Commander
 
 > "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."

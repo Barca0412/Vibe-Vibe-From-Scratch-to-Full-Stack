@@ -2,6 +2,8 @@
 title: "3.6 当 AI 不听话时"
 ---
 
+
+![03-technique_3.6-debugging-ai_index.png](../../../public/images/Basic/03-technique_3.6-debugging-ai_index.png)
 # 3.6 当 AI 不听话时：调试、修正与兜底策略
 
 ## 经过本节学习，你将掌握

@@ -3,6 +3,8 @@ title: "5.2 见世面：把网页发到互联网上"
 order: 1
 ---
 
+
+![05-advanced_5.2-deployment_index.png](../../../public/images/Basic/05-advanced_5.2-deployment_index.png)
 # 5.2 见世面：把网页发到互联网上
 
 还记得你在第四章做的待办清单吗？它现在只能在你自己的电脑上运行。本节将带你把它发布到互联网上，让全世界都能访问。

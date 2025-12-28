@@ -2,6 +2,8 @@
 title: "A.3 问题解决类模板"
 ---
 
+
+![03-technique_appendix_A.3-problem-solving.png](../../../public/images/Basic/03-technique_appendix_A.3-problem-solving.png)
 # A.3 问题解决类模板
 
 本节提供排查问题和寻求帮助的 Prompt 模板，覆盖错误排查、技术选型、概念解释等场景。

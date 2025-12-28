@@ -2,6 +2,8 @@
 title: "2.7 问题发现：如何找到值得解决的问题"
 ---
 
+
+![02-mindset_2.7-problem-discovery_index.png](../../../public/images/Basic/02-mindset_2.7-problem-discovery_index.png)
 # 2.7 问题发现：如何找到值得解决的问题
 
 ## 本节核心洞见

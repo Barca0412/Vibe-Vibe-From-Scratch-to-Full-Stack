@@ -2,6 +2,8 @@
 title: "C.1 AI 编程相关"
 ---
 
+
+![99-appendix_c-1-content.png](../../public/images/Basic/99-appendix_c-1-content.png)
 # C.1 AI 编程相关
 
 遇到不认识的词？来这里查。每个术语都用最通俗的话解释。

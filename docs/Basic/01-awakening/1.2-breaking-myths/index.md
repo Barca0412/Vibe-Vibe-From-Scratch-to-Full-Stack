@@ -2,6 +2,8 @@
 title: "1.2 破除迷信：不懂英文、数学不好也能写代码吗？"
 ---
 
+
+![01-awakening_1.2-breaking-myths_index.png](../../../public/images/Basic/01-awakening_1.2-breaking-myths_index.png)
 # 1.2 破除迷信：不懂英文、数学不好也能写代码吗？
 
 理解了AI编程的时代变革后，你可能会想： "这听起来很棒，但是我..."。

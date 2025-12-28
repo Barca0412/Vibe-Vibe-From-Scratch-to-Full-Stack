@@ -2,6 +2,8 @@
 title: "附录：常用 Prompt 模板库"
 ---
 
+
+![03-technique_appendix_index.png](../../../public/images/Basic/03-technique_appendix_index.png)
 # 附录：常用 Prompt 模板库
 
 本附录提供一系列可直接复制使用的 Prompt 模板，覆盖项目创建、代码修改、问题解决和文档生成四大场景。

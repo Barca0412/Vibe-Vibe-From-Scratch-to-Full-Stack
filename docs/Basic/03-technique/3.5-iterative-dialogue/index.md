@@ -2,6 +2,8 @@
 title: "3.5 迭代对话的艺术"
 ---
 
+
+![03-technique_3.5-iterative-dialogue_index.png](../../../public/images/Basic/03-technique_3.5-iterative-dialogue_index.png)
 # 3.5 迭代对话的艺术：从「一次搞定」到「逐步逼近」
 
 > **本节目标**：掌握多轮对话技巧，学会在对话中逐步逼近理想结果

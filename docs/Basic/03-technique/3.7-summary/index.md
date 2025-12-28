@@ -2,6 +2,8 @@
 title: "3.7 本章总结与实战演练"
 ---
 
+
+![03-technique_3.7-summary_index.png](../../../public/images/Basic/03-technique_3.7-summary_index.png)
 # 3.7 本章总结与实战演练
 
 > **本节目标**：回顾本章核心内容，整合第二章与第三章的完整工作流，通过实战演练内化技能。

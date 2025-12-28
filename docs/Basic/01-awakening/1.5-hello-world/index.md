@@ -2,6 +2,8 @@
 title: "1.5 Hello World：你的第一个 3 分钟 AI 网页"
 ---
 
+
+![01-awakening_1.5-hello-world_index.png](../../../public/images/Basic/01-awakening_1.5-hello-world_index.png)
 # 1.5 Hello World：你的第一个 3 分钟 AI 网页
 
 > **本节目标**：在 3 分钟内，用 AI 做出你人生中第一个网页。

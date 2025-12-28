@@ -3,6 +3,8 @@ title: "5.6 启程前：本章总结与进阶预告"
 order: 1
 ---
 
+
+![05-advanced_5.6-summary_index.png](../../../public/images/Basic/05-advanced_5.6-summary_index.png)
 # 5.6 启程前：本章总结与进阶预告
 
 > **本节目标**：完成基础版的"毕业仪式"——回顾你的成长，确认你的能力，为下一段旅程做准备。

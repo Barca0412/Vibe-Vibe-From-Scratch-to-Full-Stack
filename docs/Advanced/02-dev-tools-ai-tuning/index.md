@@ -2,6 +2,8 @@
 title: "第二章：开发工具与 AI 调教指南"
 ---
 
+
+![02-dev-tools-ai-tuning_index.png](../../public/images/Advanced/02-dev-tools-ai-tuning_index.png)
 # 第二章：开发工具与 AI 调教指南
 ## 序言
 环境装好了，你手里握着一份庞大的工具清单，面对 **Deepseek, 豆包, 千问, GLM, GPT, Claude, Gemini** 这些模型，还有 **Cursor, Trae, Windsurf** , **Qoder, Code Buddy** 这些编辑器，以及 **Claude Code, CodeX, Qoder CLI, Droid CLI, Warp** 等各种 CLI 命令行工具，你彻底晕了。

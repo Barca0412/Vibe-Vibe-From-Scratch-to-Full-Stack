@@ -2,6 +2,8 @@
 title: "E.2 效率工具类（10 个）"
 ---
 
+
+![99-appendix_e-2-content.png](../../public/images/Basic/99-appendix_e-2-content.png)
 # E.2 效率工具类（10 个）
 
 这些项目能真正提高你的工作效率。做出来之后，你会每天都用。

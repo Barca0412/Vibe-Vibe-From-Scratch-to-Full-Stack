@@ -2,6 +2,8 @@
 title: "E.4 数据可视化类（10 个）"
 ---
 
+
+![99-appendix_e-4-content.png](../../public/images/Basic/99-appendix_e-4-content.png)
 # E.4 数据可视化类（10 个）
 
 把数据变成图表，让信息一目了然。这类项目非常适合做数据分析、做报告的人。

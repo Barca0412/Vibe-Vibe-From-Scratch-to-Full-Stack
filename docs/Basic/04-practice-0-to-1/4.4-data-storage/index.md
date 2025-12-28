@@ -3,6 +3,8 @@ title: "4.4 第三轮：让数据活起来"
 order: 1
 ---
 
+
+![04-practice-0-to-1_4.4-data-storage_index.png](../../../public/images/Basic/04-practice-0-to-1_4.4-data-storage_index.png)
 # 4.4 第三轮：让数据活起来
 
 > **本节目标**：让任务数据保存下来，刷新页面后还在

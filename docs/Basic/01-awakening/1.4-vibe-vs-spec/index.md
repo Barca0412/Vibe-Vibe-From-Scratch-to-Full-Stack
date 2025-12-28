@@ -2,6 +2,8 @@
 title: "1.4 Vibe vs Spec：AI 编程的两种方式"
 ---
 
+
+![01-awakening_1.4-vibe-vs-spec_index.png](../../../public/images/Basic/01-awakening_1.4-vibe-vs-spec_index.png)
 # 1.4 Vibe vs Spec：AI 编程的两种方式
 
 经过前面的学习和实践，你已经对AI编程有了初步的感性认识。现在，让我们深入理解背后的核心方法论。

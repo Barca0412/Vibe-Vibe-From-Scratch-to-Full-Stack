@@ -2,6 +2,8 @@
 title: "A. 思维模型速查表"
 ---
 
+
+![02-mindset_appendix_A-templates.png](../../../public/images/Basic/02-mindset_appendix_A-templates.png)
 # A. 思维模型速查表
 
 本附录汇总第二章七个思维模型的核心模板，每个模板都附有填写示例和使用场景说明。

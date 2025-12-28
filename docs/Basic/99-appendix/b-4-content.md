@@ -2,6 +2,8 @@
 title: "B.4 工具问题"
 ---
 
+
+![99-appendix_b-4-content.png](../../public/images/Basic/99-appendix_b-4-content.png)
 # B.4 工具问题
 
 这一节解决你在使用 AI 编程工具时可能遇到的问题。

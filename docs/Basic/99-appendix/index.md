@@ -2,6 +2,8 @@
 title: "附录"
 ---
 
+
+![99-appendix_index.png](../../public/images/Basic/99-appendix_index.png)
 # 附录
 
 这里收录了 Vibe Coding 学习过程中常用的速查资料。遇到问题时，先来这里找找答案。

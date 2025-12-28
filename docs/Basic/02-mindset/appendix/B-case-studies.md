@@ -2,6 +2,8 @@
 title: "B. 扩展案例库"
 ---
 
+
+![02-mindset_appendix_B-case-studies.png](../../../public/images/Basic/02-mindset_appendix_B-case-studies.png)
 # B. 扩展案例库
 
 本附录提供 6 个真实案例，展示如何在不同场景下应用第二章的思维模型。每个案例都包含：问题背景、思维模型应用过程、关键决策、最终结果。

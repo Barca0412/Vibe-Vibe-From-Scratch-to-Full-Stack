@@ -2,6 +2,8 @@
 title: "第 4 章：实战 —— 从 0 到 1 开发个人工具"
 ---
 
+
+![04-practice-0-to-1_index.png](../../public/images/Basic/04-practice-0-to-1_index.png)
 # 第 4 章：实战 —— 从 0 到 1 开发个人工具
 
 > **章节定位**：本章是 Vibe Coding 的核心实践章节，将前三章学到的思维和技法真正落地，手把手带你完成第一个完整的 AI 编程项目。

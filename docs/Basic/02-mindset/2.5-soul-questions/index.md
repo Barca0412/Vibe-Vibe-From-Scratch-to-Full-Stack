@@ -2,6 +2,8 @@
 title: "2.5 灵魂三问：开发前必须回答的问题"
 ---
 
+
+![02-mindset_2.5-soul-questions_index.png](../../../public/images/Basic/02-mindset_2.5-soul-questions_index.png)
 # 2.5 灵魂三问：开发前必须回答的问题
 
 经过本节学习，你将掌握：

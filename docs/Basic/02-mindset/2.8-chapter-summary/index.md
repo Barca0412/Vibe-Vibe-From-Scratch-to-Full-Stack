@@ -2,6 +2,8 @@
 title: "2.8 本章总结：产品经理的思维工具箱"
 ---
 
+
+![02-mindset_2.8-chapter-summary_index.png](../../../public/images/Basic/02-mindset_2.8-chapter-summary_index.png)
 # 2.8 本章总结：产品经理的思维工具箱
 
 经过本节学习，你将掌握：

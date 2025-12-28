@@ -2,6 +2,8 @@
 title: "3.3 进阶提示技巧"
 ---
 
+
+![03-technique_3.3-advanced-techniques_index.png](../../../public/images/Basic/03-technique_3.3-advanced-techniques_index.png)
 # 3.3 进阶提示技巧：解锁 AI 的隐藏能力
 
 在 3.2 节，你学会了用结构化框架（S.C.A.F.F.、R.G.C.）组织提示词。框架解决了「怎么组织信息」的问题，但还有一个问题没回答：

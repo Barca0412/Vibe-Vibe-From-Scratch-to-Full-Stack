@@ -2,6 +2,8 @@
 title: "D.2 IDE 集成式对比"
 ---
 
+
+![99-appendix_d-2-content.png](../../public/images/Basic/99-appendix_d-2-content.png)
 # D.2 IDE 集成式对比
 
 IDE 集成式工具把 AI 能力直接嵌入代码编辑器，可以在写代码的同时获得 AI 帮助。更适合有一定基础、想深入学习的用户。

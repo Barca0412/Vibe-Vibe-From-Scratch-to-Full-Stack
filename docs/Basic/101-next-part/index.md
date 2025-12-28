@@ -2,6 +2,8 @@
 title: "下部预告：Vibe Coding 全栈实战教程"
 ---
 
+
+![101-next-part_index.png](../../public/images/Basic/101-next-part_index.png)
 # 下部预告：Vibe Coding 全栈实战教程
 
 你已经学会了 Vibe Coding 的基础心法。

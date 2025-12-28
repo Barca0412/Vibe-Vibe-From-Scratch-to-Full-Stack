@@ -2,6 +2,8 @@
 title: "A.4 文档生成类模板"
 ---
 
+
+![03-technique_appendix_A.4-document-generation.png](../../../public/images/Basic/03-technique_appendix_A.4-document-generation.png)
 # A.4 文档生成类模板
 
 本节提供生成各类文档的 Prompt 模板，包括代码注释、README、API 文档和使用说明。

@@ -3,6 +3,8 @@ title: "4.6 收尾与回顾"
 order: 1
 ---
 
+
+![04-practice-0-to-1_4.6-summary_index.png](../../../public/images/Basic/04-practice-0-to-1_4.6-summary_index.png)
 # 4.6 收尾与回顾
 
 > **本节目标**：确认项目成果，回顾完整历程，明确技能收获，规划下一步

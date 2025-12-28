@@ -3,6 +3,8 @@ title: "5.4 再进化：项目的持续迭代与优化"
 order: 1
 ---
 
+
+![05-advanced_5.4-iteration_index.png](../../../public/images/Basic/05-advanced_5.4-iteration_index.png)
 # 5.4 再进化：项目的持续迭代与优化
 
 经过本节学习，你将掌握：

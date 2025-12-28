@@ -3,6 +3,8 @@ title: "5.3 护城河：AI 时代的安全意识"
 order: 1
 ---
 
+
+![05-advanced_5.3-security_index.png](../../../public/images/Basic/05-advanced_5.3-security_index.png)
 # 5.3 护城河：AI 时代的安全意识
 
 > **本节目标**：了解 AI 编程中的安全风险，学会保护自己

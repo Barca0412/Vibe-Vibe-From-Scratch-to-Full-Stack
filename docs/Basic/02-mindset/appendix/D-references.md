@@ -2,6 +2,8 @@
 title: "D. 深度参考资源"
 ---
 
+
+![02-mindset_appendix_D-references.png](../../../public/images/Basic/02-mindset_appendix_D-references.png)
 # D. 深度参考资源
 
 本附录提供第二章思维模型的原始出处、推荐书单和免费在线资源，帮助你进一步深入学习。

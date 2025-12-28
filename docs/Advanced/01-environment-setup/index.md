@@ -2,6 +2,8 @@
 title: "第一章：环境搭建、代码形态与包管理器的选择"
 ---
 
+
+![01-environment-setup_index.png](../../public/images/Advanced/01-environment-setup_index.png)
 # 第一章：环境搭建、代码形态与包管理器的选择
 ## 序言
 你有一台新电脑，里面干干净净，除了浏览器什么都没有。你不会写代码，但是你觉得最近 AI 很火，心里有一个绝妙的 App 想法，打算在网页上指挥 AI 帮你做一个 Demo。

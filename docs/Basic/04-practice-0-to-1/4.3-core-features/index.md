@@ -3,6 +3,8 @@ title: "4.3 第二轮：实现核心功能"
 order: 1
 ---
 
+
+![04-practice-0-to-1_4.3-core-features_index.png](../../../public/images/Basic/04-practice-0-to-1_4.3-core-features_index.png)
 # 4.3 第二轮：实现核心功能
 
 > **本轮目标**：让页面能响应用户操作——点击按钮真的有反应

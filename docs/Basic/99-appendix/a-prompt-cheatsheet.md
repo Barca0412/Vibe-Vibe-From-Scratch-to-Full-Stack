@@ -2,6 +2,8 @@
 title: "A. Prompt 速查清单"
 ---
 
+
+![99-appendix_a-prompt-cheatsheet.png](../../public/images/Basic/99-appendix_a-prompt-cheatsheet.png)
 # A. Prompt 速查清单
 
 写 Prompt 时的快速参考。详细讲解见[第三章：技法](/Basic/03-technique/)。

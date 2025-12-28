@@ -2,6 +2,8 @@
 title: "附录：心法篇补充材料"
 ---
 
+
+![02-mindset_appendix_index.png](../../../public/images/Basic/02-mindset_appendix_index.png)
 # 附录：心法篇补充材料
 
 本附录为第二章「心法篇」提供补充材料，帮助你更好地理解和应用七个思维模型。

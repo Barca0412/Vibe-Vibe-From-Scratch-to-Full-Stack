@@ -2,6 +2,8 @@
 title: "2.1 思维升级：从\"我想做一个App\"到\"我要解决一个问题\""
 ---
 
+
+![02-mindset_2.1-thinking-upgrade_index.png](../../../public/images/Basic/02-mindset_2.1-thinking-upgrade_index.png)
 # 2.1 思维升级：从"我想做一个App"到"我要解决一个问题"
 
 ## 经过本节学习，你将掌握

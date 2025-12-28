@@ -2,6 +2,8 @@
 title: "D.4 部署平台对比"
 ---
 
+
+![99-appendix_d-4-content.png](../../public/images/Basic/99-appendix_d-4-content.png)
 # D.4 部署平台对比
 
 做好的东西要放到网上让别人能访问，这就是「部署」。以下是主流免费部署平台的对比。

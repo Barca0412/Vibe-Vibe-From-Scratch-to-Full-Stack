@@ -2,6 +2,8 @@
 title: "第七章：数据持久化与数据库"
 ---
 
+
+![07-data-persistence-database_index.png](../../public/images/Advanced/07-data-persistence-database_index.png)
 # 第七章：数据持久化与数据库
 ## 序言
 界面搭建得有模有样了，但你发现一个尴尬的问题：每次刷新网页，刚才填写的表单、生成的对话全都不见了。

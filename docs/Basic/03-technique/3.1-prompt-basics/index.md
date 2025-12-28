@@ -2,6 +2,8 @@
 title: "3.1 提示词工程基础：Context is King"
 ---
 
+
+![03-technique_3.1-prompt-basics_index.png](../../../public/images/Basic/03-technique_3.1-prompt-basics_index.png)
 # 3.1 提示词工程基础：Context is King
 
 在第二章，你学会了用产品经理的思维工具「想清楚」要做什么。现在，是时候学习如何「说明白」——把你想清楚的东西，用 AI 能理解的方式表达出来。

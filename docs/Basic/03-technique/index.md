@@ -2,6 +2,8 @@
 title: "第 3 章：技法 —— 与 AI 对话的艺术"
 ---
 
+
+![03-technique_index.png](../../public/images/Basic/03-technique_index.png)
 # 第 3 章：技法 —— 与 AI 对话的艺术
 
 > **章节定位**：本章是 Vibe Coding 的核心技能章节，从"会说话"到"说对话"，帮助读者掌握与 AI 高效沟通的方法论和实操技巧。

@@ -2,6 +2,8 @@
 title: "C. 常见误区诊断清单"
 ---
 
+
+![02-mindset_appendix_C-mistakes.png](../../../public/images/Basic/02-mindset_appendix_C-mistakes.png)
 # C. 常见误区诊断清单
 
 本附录汇总第二章七个思维模型的常见误区。每个误区都配有「症状描述」「问题诊断」「改进建议」，帮助你自检和避坑。

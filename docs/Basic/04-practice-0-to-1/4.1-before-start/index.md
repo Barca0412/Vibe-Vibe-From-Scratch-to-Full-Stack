@@ -3,6 +3,8 @@ title: "4.1 开始之前：整合你的准备工作"
 order: 1
 ---
 
+
+![04-practice-0-to-1_4.1-before-start_index.png](../../../public/images/Basic/04-practice-0-to-1_4.1-before-start_index.png)
 # 4.1 开始之前：整合你的准备工作
 
 > **本节目标**：用 15 分钟完成所有准备，然后立刻开始动手

@@ -2,6 +2,8 @@
 title: "2.2 逆向思维：先想清楚什么会让项目失败"
 ---
 
+
+![02-mindset_2.2-inversion-thinking_index.png](../../../public/images/Basic/02-mindset_2.2-inversion-thinking_index.png)
 # 2.2 逆向思维：先想清楚什么会让项目失败
 
 在上一节，我们学会了用"任务视角"来思考需求——先问"用户要完成什么任务"，再考虑"需要什么功能"。

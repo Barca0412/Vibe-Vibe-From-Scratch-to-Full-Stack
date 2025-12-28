@@ -3,6 +3,8 @@ title: "5.5 知边界：Vibe Coding 的能与不能"
 order: 1
 ---
 
+
+![05-advanced_5.5-boundaries_index.png](../../../public/images/Basic/05-advanced_5.5-boundaries_index.png)
 # 5.5 知边界：Vibe Coding 的能与不能
 
 > **本节目标**：清晰认识 Vibe Coding 的能力边界，在擅长的领域充分发挥，在不擅长的领域知道何时寻求帮助。

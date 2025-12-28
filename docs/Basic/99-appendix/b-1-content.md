@@ -2,6 +2,8 @@
 title: "B.1 JavaScript 错误"
 ---
 
+
+![99-appendix_b-1-content.png](../../public/images/Basic/99-appendix_b-1-content.png)
 # B.1 JavaScript 错误
 
 遇到错误别慌！这一节列出了最常见的 JavaScript 错误，以及对应的解决方法。遇到问题时，直接查表就行。

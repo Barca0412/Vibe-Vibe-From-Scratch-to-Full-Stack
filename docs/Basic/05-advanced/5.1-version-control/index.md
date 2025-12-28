@@ -3,6 +3,8 @@ title: "5.1 后悔药：代码改崩了怎么办"
 order: 1
 ---
 
+
+![05-advanced_5.1-version-control_index.png](../../../public/images/Basic/05-advanced_5.1-version-control_index.png)
 # 5.1 后悔药：代码改崩了怎么办
 
 还记得你在第四章做的待办清单吗？那是你的第一个真正能用的作品。

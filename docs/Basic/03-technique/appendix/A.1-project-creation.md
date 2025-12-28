@@ -2,6 +2,8 @@
 title: "A.1 项目创建类模板"
 ---
 
+
+![03-technique_appendix_A.1-project-creation.png](../../../public/images/Basic/03-technique_appendix_A.1-project-creation.png)
 # A.1 项目创建类模板
 
 本节提供从零开始创建项目的 Prompt 模板，覆盖网页应用、数据分析、自动化脚本等常见场景。

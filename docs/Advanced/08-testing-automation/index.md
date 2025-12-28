@@ -2,6 +2,8 @@
 title: "第八章：功能测试流程与自动化脚本"
 ---
 
+
+![08-testing-automation_index.png](../../public/images/Advanced/08-testing-automation_index.png)
 # 第八章：功能测试流程与自动化脚本
 ## 序言
 功能越来越多了，你开始遇到一个崩溃的现象：**“打地鼠”**。你刚修复了“登录页”的 Bug，结果“注册页”又打不开了；你优化了首页的样式，结果购物车按钮点不动了。

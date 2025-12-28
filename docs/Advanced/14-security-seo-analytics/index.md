@@ -2,6 +2,8 @@
 title: "第十四章：安全防护与 SEO 数据统计"
 ---
 
+
+![14-security-seo-analytics_index.png](../../public/images/Advanced/14-security-seo-analytics_index.png)
 # 第十四章：安全防护与 SEO 数据统计
 ## 序言
 你终于做好项目了，发给你的朋友，他们惊叹于你的创造力。 但突然，一个做测试的朋友告诉你：“嘿，我发现我在浏览器地址栏手动输入 `/admin`，竟然直接进到了你的管理员后台，还能改数据！”

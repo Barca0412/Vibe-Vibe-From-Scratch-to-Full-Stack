@@ -2,6 +2,8 @@
 title: "D.1 对话式 AI 对比"
 ---
 
+
+![99-appendix_d-1-content.png](../../public/images/Basic/99-appendix_d-1-content.png)
 # D.1 对话式 AI 对比
 
 对话式 AI 是最简单的 AI 编程方式：直接对话，让 AI 帮你写代码。以下是主流工具的对比。

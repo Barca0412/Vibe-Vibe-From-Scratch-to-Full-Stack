@@ -2,6 +2,8 @@
 title: "第十章：Git 版本控制与跨平台协作"
 ---
 
+
+![10-git-collaboration_index.png](../../public/images/Advanced/10-git-collaboration_index.png)
 # 第十章：Git 与跨平台协作
 ## 序言
 功能越来越丰富，你的本地 Git 仓库里已经积累了厚厚一摞存档记录。一天，你的好朋友也打算跟你一起做。

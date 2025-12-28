@@ -2,6 +2,8 @@
 title: "3.2 结构化提示词框架"
 ---
 
+
+![03-technique_3.2-structured-frameworks_index.png](../../../public/images/Basic/03-technique_3.2-structured-frameworks_index.png)
 # 3.2 结构化提示词框架：从"随便说说"到"有章可循"
 
 在 3.1 节，你学会了"上下文为王"的核心原则，知道了该告诉 AI 什么信息。但你可能还有一个困扰：
