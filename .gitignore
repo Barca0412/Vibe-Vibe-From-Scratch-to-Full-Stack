@@ -41,7 +41,7 @@ nano-api-test/
 # 内部文档（不公开）
 VibeVibe 项目协作与开发指南.md
 scripts/
-
+archive/
 # 环境配置
 .env
 .claude/
