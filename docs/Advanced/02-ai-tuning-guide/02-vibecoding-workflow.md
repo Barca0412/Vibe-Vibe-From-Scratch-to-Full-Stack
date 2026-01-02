@@ -364,18 +364,6 @@ graph TB
 
 仅允许只读操作，所有修改操作都会被阻止。
 
-```bash
-# 启用 plan 模式
-/interaction-mode plan
-
-# 示例行为
-"搜索所有测试文件"
-# AI 直接执行（只读操作）
-
-"修改这个函数"
-# AI 拒绝执行（plan 模式不允许编辑）
-```
-
 **适用场景**：
 - 代码审查
 - 了解代码库结构
@@ -386,9 +374,6 @@ graph TB
 编辑操作需要确认，其他操作自动批准。
 
 ```bash
-# 启用 accept edits 模式
-/interaction-mode acceptEdits
-
 # 示例行为
 "读取配置文件"
 "运行测试"
@@ -406,18 +391,9 @@ graph TB
 
 #### 模式切换
 
-```bash
-# 快捷键切换
+# 快捷键
 Shift+Tab  # 在三种模式间循环切换
 
-# 命令切换
-/interaction-mode default
-/interaction-mode plan
-/interaction-mode acceptEdits
-
-# 查看当前模式
-/interaction-mode
-```
 
 ### 常用交互命令
 
