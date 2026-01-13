@@ -122,7 +122,7 @@ export async function create(data: PostData) {
 
 ### 验收清单
 
-- [ ] API Route 只处理请求和响应
-- [ ] 业务逻辑封装在 Service 层
-- [ ] 使用 Zod 进行参数验证
-- [ ] 有统一的错误处理机制
+- <input type="checkbox" name="验收清单-checklist" value="api-route-只处理请求和响应" /> <label for="api-route-只处理请求和响应">API Route 只处理请求和响应</label>
+- <input type="checkbox" name="验收清单-checklist" value="业务逻辑封装在-service-层" /> <label for="业务逻辑封装在-service-层">业务逻辑封装在 Service 层</label>
+- <input type="checkbox" name="验收清单-checklist" value="使用-zod-进行参数验证" /> <label for="使用-zod-进行参数验证">使用 Zod 进行参数验证</label>
+- <input type="checkbox" name="验收清单-checklist" value="有统一的错误处理机制" /> <label for="有统一的错误处理机制">有统一的错误处理机制</label>

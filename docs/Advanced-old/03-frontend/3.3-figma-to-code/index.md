@@ -122,11 +122,11 @@ Figma 的 Dev Mode 可以导出：
 
 AI 生成代码后，按以下清单验收：
 
-- [ ] **布局正确**：元素位置、间距与设计稿一致
-- [ ] **响应式**：在不同屏幕尺寸下正常显示
-- [ ] **交互完整**：悬停、点击等状态正确
-- [ ] **无障碍**：有 alt 文本、正确的语义标签
-- [ ] **代码质量**：无重复代码、Props 类型正确
+- <input type="checkbox" name="验收清单-checklist" value="布局正确元素位置间距与设计稿一致" /> <label for="布局正确元素位置间距与设计稿一致">**布局正确**：元素位置、间距与设计稿一致</label>
+- <input type="checkbox" name="验收清单-checklist" value="响应式在不同屏幕尺寸下正常显示" /> <label for="响应式在不同屏幕尺寸下正常显示">**响应式**：在不同屏幕尺寸下正常显示</label>
+- <input type="checkbox" name="验收清单-checklist" value="交互完整悬停点击等状态正确" /> <label for="交互完整悬停点击等状态正确">**交互完整**：悬停、点击等状态正确</label>
+- <input type="checkbox" name="验收清单-checklist" value="无障碍有-alt-文本正确的语义标签" /> <label for="无障碍有-alt-文本正确的语义标签">**无障碍**：有 alt 文本、正确的语义标签</label>
+- <input type="checkbox" name="验收清单-checklist" value="代码质量无重复代码props-类型正确" /> <label for="代码质量无重复代码props-类型正确">**代码质量**：无重复代码、Props 类型正确</label>
 
 ### 常见问题与解决
 

@@ -117,7 +117,7 @@ export function Counter() {
 
 ### 验收清单
 
-- [ ] 理解 Server/Client Component 的区别
-- [ ] 知道何时使用 `'use client'`
-- [ ] 能够设计合理的 Props 接口
-- [ ] 理解数据流动方向（Props 向下，Events 向上）
+- <input type="checkbox" name="验收清单-checklist" value="理解-server-client-component-的区别" /> <label for="理解-server-client-component-的区别">理解 Server/Client Component 的区别</label>
+- <input type="checkbox" name="验收清单-checklist" value="知道何时使用-use-client" /> <label for="知道何时使用-use-client">知道何时使用 `'use client'`</label>
+- <input type="checkbox" name="验收清单-checklist" value="能够设计合理的-props-接口" /> <label for="能够设计合理的-props-接口">能够设计合理的 Props 接口</label>
+- <input type="checkbox" name="验收清单-checklist" value="理解数据流动方向props-向下events-向上" /> <label for="理解数据流动方向props-向下events-向上">理解数据流动方向（Props 向下，Events 向上）</label>

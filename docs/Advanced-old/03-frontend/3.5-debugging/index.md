@@ -82,7 +82,7 @@ graph LR
 
 ### 验收清单
 
-- [ ] 知道如何打开 Chrome DevTools（F12 或 Cmd+Option+I）
-- [ ] 能够在 Network 面板找到请求并查看响应
-- [ ] 能够在 Console 面板看懂错误信息
-- [ ] 已安装 React Developer Tools 扩展
+- <input type="checkbox" name="验收清单-checklist" value="知道如何打开-chrome-devtoolsf12-或-cmdoptioni" /> <label for="知道如何打开-chrome-devtoolsf12-或-cmdoptioni">知道如何打开 Chrome DevTools（F12 或 Cmd+Option+I）</label>
+- <input type="checkbox" name="验收清单-checklist" value="能够在-network-面板找到请求并查看响应" /> <label for="能够在-network-面板找到请求并查看响应">能够在 Network 面板找到请求并查看响应</label>
+- <input type="checkbox" name="验收清单-checklist" value="能够在-console-面板看懂错误信息" /> <label for="能够在-console-面板看懂错误信息">能够在 Console 面板看懂错误信息</label>
+- <input type="checkbox" name="验收清单-checklist" value="已安装-react-developer-tools-扩展" /> <label for="已安装-react-developer-tools-扩展">已安装 React Developer Tools 扩展</label>

@@ -60,8 +60,8 @@ flowchart LR
 
 ## 验收清单
 
-- [ ] 能独立完成 clone → 修改 → commit → push 流程
-- [ ] 能创建分支、切换分支、合并分支
-- [ ] 能处理简单的合并冲突
-- [ ] 理解 reset 和 revert 的区别
-- [ ] 能正确配置 .gitignore 文件
+- <input type="checkbox" name="验收清单-checklist" value="能独立完成-clone-修改-commit-push-流程" /> <label for="能独立完成-clone-修改-commit-push-流程">能独立完成 clone → 修改 → commit → push 流程</label>
+- <input type="checkbox" name="验收清单-checklist" value="能创建分支切换分支合并分支" /> <label for="能创建分支切换分支合并分支">能创建分支、切换分支、合并分支</label>
+- <input type="checkbox" name="验收清单-checklist" value="能处理简单的合并冲突" /> <label for="能处理简单的合并冲突">能处理简单的合并冲突</label>
+- <input type="checkbox" name="验收清单-checklist" value="理解-reset-和-revert-的区别" /> <label for="理解-reset-和-revert-的区别">理解 reset 和 revert 的区别</label>
+- <input type="checkbox" name="验收清单-checklist" value="能正确配置-gitignore-文件" /> <label for="能正确配置-gitignore-文件">能正确配置 .gitignore 文件</label>

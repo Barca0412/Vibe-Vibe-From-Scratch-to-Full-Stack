@@ -464,10 +464,10 @@ graph TB
 4. **命名规范优先**：创建项目时就使用正确的命名
 
 **创建项目检查清单**：
-- [ ] 项目名不含中文和空格
-- [ ] 使用官方脚手架或 AI 推荐的模板
-- [ ] 理解各文件夹的职责
-- [ ] 项目能正常启动（`pnpm dev`）
+- <input type="checkbox" name="核心理念-checklist" value="项目名不含中文和空格" /> <label for="项目名不含中文和空格">项目名不含中文和空格</label>
+- <input type="checkbox" name="核心理念-checklist" value="使用官方脚手架或-ai-推荐的模板" /> <label for="使用官方脚手架或-ai-推荐的模板">使用官方脚手架或 AI 推荐的模板</label>
+- <input type="checkbox" name="核心理念-checklist" value="理解各文件夹的职责" /> <label for="理解各文件夹的职责">理解各文件夹的职责</label>
+- <input type="checkbox" name="核心理念-checklist" value="项目能正常启动pnpm-dev" /> <label for="项目能正常启动pnpm-dev">项目能正常启动（`pnpm dev`）</label>
 
 ## 相关内容
 

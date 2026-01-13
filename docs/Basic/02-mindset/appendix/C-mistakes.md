@@ -444,13 +444,13 @@ MVP 的原则是：功能要少，但核心功能要做到位。
 
 完成项目前，用这个清单快速自检：
 
-- [ ] 我用的是「任务描述」而非「功能清单」？
-- [ ] 我考虑了功能、情感、社会三层任务？
-- [ ] 每个风险都有对应的预防措施？
-- [ ] MVP 的核心功能做到位了，而不是凑合？
-- [ ] 不做清单是具体的功能名称，而非空泛描述？
-- [ ] 用户画像具体到「能发微信」的程度？
-- [ ] 痛点带有负面情绪，而非只是「想要」？
-- [ ] 「为什么选我」说清楚了和现有方案的差异？
+- <input type="checkbox" name="自检清单总结-checklist" value="我用的是任务描述而非功能清单" /> <label for="我用的是任务描述而非功能清单">我用的是「任务描述」而非「功能清单」？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="我考虑了功能情感社会三层任务" /> <label for="我考虑了功能情感社会三层任务">我考虑了功能、情感、社会三层任务？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="每个风险都有对应的预防措施" /> <label for="每个风险都有对应的预防措施">每个风险都有对应的预防措施？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="mvp-的核心功能做到位了而不是凑合" /> <label for="mvp-的核心功能做到位了而不是凑合">MVP 的核心功能做到位了，而不是凑合？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="不做清单是具体的功能名称而非空泛描述" /> <label for="不做清单是具体的功能名称而非空泛描述">不做清单是具体的功能名称，而非空泛描述？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="用户画像具体到能发微信的程度" /> <label for="用户画像具体到能发微信的程度">用户画像具体到「能发微信」的程度？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="痛点带有负面情绪而非只是想要" /> <label for="痛点带有负面情绪而非只是想要">痛点带有负面情绪，而非只是「想要」？</label>
+- <input type="checkbox" name="自检清单总结-checklist" value="为什么选我说清楚了和现有方案的差异" /> <label for="为什么选我说清楚了和现有方案的差异">「为什么选我」说清楚了和现有方案的差异？</label>
 
 如果有任何一项打不了勾，回到对应章节重新思考。

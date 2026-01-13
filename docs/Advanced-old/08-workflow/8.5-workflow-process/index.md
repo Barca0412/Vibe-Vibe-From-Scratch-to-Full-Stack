@@ -62,7 +62,7 @@ AI 可以辅助流程中的多个环节：
 
 ## 验收清单
 
-- [ ] 理解开发流程各阶段的作用
-- [ ] 能根据项目规模选择合适的流程
-- [ ] 掌握需求对齐和技术评审的基本方法
-- [ ] 了解验收标准和部署规范
+- <input type="checkbox" name="验收清单-checklist" value="理解开发流程各阶段的作用" /> <label for="理解开发流程各阶段的作用">理解开发流程各阶段的作用</label>
+- <input type="checkbox" name="验收清单-checklist" value="能根据项目规模选择合适的流程" /> <label for="能根据项目规模选择合适的流程">能根据项目规模选择合适的流程</label>
+- <input type="checkbox" name="验收清单-checklist" value="掌握需求对齐和技术评审的基本方法" /> <label for="掌握需求对齐和技术评审的基本方法">掌握需求对齐和技术评审的基本方法</label>
+- <input type="checkbox" name="验收清单-checklist" value="了解验收标准和部署规范" /> <label for="了解验收标准和部署规范">了解验收标准和部署规范</label>

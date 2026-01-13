@@ -83,7 +83,7 @@ Closes #456"
 
 ## 验收清单
 
-- [ ] 理解 Conventional Commits 规范
-- [ ] 能正确使用 type 和 scope
-- [ ] 会配置 commitlint 自动检查
-- [ ] 能使用工具自动生成 CHANGELOG
+- <input type="checkbox" name="验收清单-checklist" value="理解-conventional-commits-规范" /> <label for="理解-conventional-commits-规范">理解 Conventional Commits 规范</label>
+- <input type="checkbox" name="验收清单-checklist" value="能正确使用-type-和-scope" /> <label for="能正确使用-type-和-scope">能正确使用 type 和 scope</label>
+- <input type="checkbox" name="验收清单-checklist" value="会配置-commitlint-自动检查" /> <label for="会配置-commitlint-自动检查">会配置 commitlint 自动检查</label>
+- <input type="checkbox" name="验收清单-checklist" value="能使用工具自动生成-changelog" /> <label for="能使用工具自动生成-changelog">能使用工具自动生成 CHANGELOG</label>

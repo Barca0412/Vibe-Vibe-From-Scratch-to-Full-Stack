@@ -87,7 +87,7 @@ coverage/
 
 ## 验收清单
 
-- [ ] 了解哪些文件应该被忽略
-- [ ] 能编写基本的 .gitignore 规则
-- [ ] 理解敏感文件的处理方式
-- [ ] 知道如何配置全局 gitignore
+- <input type="checkbox" name="验收清单-checklist" value="了解哪些文件应该被忽略" /> <label for="了解哪些文件应该被忽略">了解哪些文件应该被忽略</label>
+- <input type="checkbox" name="验收清单-checklist" value="能编写基本的-gitignore-规则" /> <label for="能编写基本的-gitignore-规则">能编写基本的 .gitignore 规则</label>
+- <input type="checkbox" name="验收清单-checklist" value="理解敏感文件的处理方式" /> <label for="理解敏感文件的处理方式">理解敏感文件的处理方式</label>
+- <input type="checkbox" name="验收清单-checklist" value="知道如何配置全局-gitignore" /> <label for="知道如何配置全局-gitignore">知道如何配置全局 gitignore</label>

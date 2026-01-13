@@ -90,7 +90,7 @@ npx shadcn@latest add input
 
 ### 验收清单
 
-- [ ] Tailwind 配置正确，样式生效
-- [ ] shadcn/ui 组件正确安装和导入
-- [ ] 组件使用 `cn()` 合并样式类
-- [ ] 响应式断点设置合理
+- <input type="checkbox" name="验收清单-checklist" value="tailwind-配置正确样式生效" /> <label for="tailwind-配置正确样式生效">Tailwind 配置正确，样式生效</label>
+- <input type="checkbox" name="验收清单-checklist" value="shadcn-ui-组件正确安装和导入" /> <label for="shadcn-ui-组件正确安装和导入">shadcn/ui 组件正确安装和导入</label>
+- <input type="checkbox" name="验收清单-checklist" value="组件使用-cn-合并样式类" /> <label for="组件使用-cn-合并样式类">组件使用 `cn()` 合并样式类</label>
+- <input type="checkbox" name="验收清单-checklist" value="响应式断点设置合理" /> <label for="响应式断点设置合理">响应式断点设置合理</label>

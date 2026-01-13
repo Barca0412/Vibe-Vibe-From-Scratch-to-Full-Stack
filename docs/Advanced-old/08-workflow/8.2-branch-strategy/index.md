@@ -67,7 +67,7 @@ flowchart LR
 
 ## 验收清单
 
-- [ ] 理解分支策略的必要性
-- [ ] 能根据项目特点选择合适的分支模型
-- [ ] 知道如何配置分支保护规则
-- [ ] 掌握 PR 和代码审查的基本流程
+- <input type="checkbox" name="验收清单-checklist" value="理解分支策略的必要性" /> <label for="理解分支策略的必要性">理解分支策略的必要性</label>
+- <input type="checkbox" name="验收清单-checklist" value="能根据项目特点选择合适的分支模型" /> <label for="能根据项目特点选择合适的分支模型">能根据项目特点选择合适的分支模型</label>
+- <input type="checkbox" name="验收清单-checklist" value="知道如何配置分支保护规则" /> <label for="知道如何配置分支保护规则">知道如何配置分支保护规则</label>
+- <input type="checkbox" name="验收清单-checklist" value="掌握-pr-和代码审查的基本流程" /> <label for="掌握-pr-和代码审查的基本流程">掌握 PR 和代码审查的基本流程</label>

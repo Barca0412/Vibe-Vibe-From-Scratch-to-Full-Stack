@@ -84,9 +84,9 @@ graph TD
 
 **验收清单：**
 
-- [ ] 访问 `http://localhost:3000/` 能看到首页？
-- [ ] 访问 `http://localhost:3000/about` 能看到关于页？
-- [ ] 两个页面是否都有相同的导航栏（来自 `layout.tsx`）？
+- <input type="checkbox" name="第一步搭建骨架static-routes-layouts-checklist" value="访问-http-localhost3000-能看到首页" /> <label for="访问-http-localhost3000-能看到首页">访问 `http://localhost:3000/` 能看到首页？</label>
+- <input type="checkbox" name="第一步搭建骨架static-routes-layouts-checklist" value="访问-http-localhost3000-about-能看到关于页" /> <label for="访问-http-localhost3000-about-能看到关于页">访问 `http://localhost:3000/about` 能看到关于页？</label>
+- <input type="checkbox" name="第一步搭建骨架static-routes-layouts-checklist" value="两个页面是否都有相同的导航栏来自-layouttsx" /> <label for="两个页面是否都有相同的导航栏来自-layouttsx">两个页面是否都有相同的导航栏（来自 `layout.tsx`）？</label>
 
 ### 第二步：处理动态内容（Dynamic Routes）
 

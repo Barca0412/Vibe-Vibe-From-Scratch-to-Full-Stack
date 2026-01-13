@@ -61,12 +61,12 @@ npx prisma migrate deploy
 
 ### 迁移前检查清单
 
-- [ ] 已在本地测试迁移
-- [ ] 已在测试环境验证
-- [ ] 已备份生产数据库
-- [ ] 了解迁移的预计执行时间
-- [ ] 准备好回滚方案
-- [ ] 安排在低峰期执行
+- <input type="checkbox" name="迁移前检查清单-checklist" value="已在本地测试迁移" /> <label for="已在本地测试迁移">已在本地测试迁移</label>
+- <input type="checkbox" name="迁移前检查清单-checklist" value="已在测试环境验证" /> <label for="已在测试环境验证">已在测试环境验证</label>
+- <input type="checkbox" name="迁移前检查清单-checklist" value="已备份生产数据库" /> <label for="已备份生产数据库">已备份生产数据库</label>
+- <input type="checkbox" name="迁移前检查清单-checklist" value="了解迁移的预计执行时间" /> <label for="了解迁移的预计执行时间">了解迁移的预计执行时间</label>
+- <input type="checkbox" name="迁移前检查清单-checklist" value="准备好回滚方案" /> <label for="准备好回滚方案">准备好回滚方案</label>
+- <input type="checkbox" name="迁移前检查清单-checklist" value="安排在低峰期执行" /> <label for="安排在低峰期执行">安排在低峰期执行</label>
 
 ### 本章小结
 

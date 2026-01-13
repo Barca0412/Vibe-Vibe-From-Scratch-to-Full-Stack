@@ -78,11 +78,11 @@ title: "B.4 工具问题"
 | API 不工作 | 环境变量没配置 | 在部署平台配置环境变量 |
 
 **部署前检查清单**：
-- [ ] 所有文件都已保存
-- [ ] 本地测试运行正常
-- [ ] 文件名没有使用中文和特殊字符
-- [ ] 路径使用相对路径（`./` 或 `../`）
-- [ ] 入口文件是 `index.html`
+- <input type="checkbox" name="部署失败-checklist" value="所有文件都已保存" /> <label for="所有文件都已保存">所有文件都已保存</label>
+- <input type="checkbox" name="部署失败-checklist" value="本地测试运行正常" /> <label for="本地测试运行正常">本地测试运行正常</label>
+- <input type="checkbox" name="部署失败-checklist" value="文件名没有使用中文和特殊字符" /> <label for="文件名没有使用中文和特殊字符">文件名没有使用中文和特殊字符</label>
+- <input type="checkbox" name="部署失败-checklist" value="路径使用相对路径-或" /> <label for="路径使用相对路径-或">路径使用相对路径（`./` 或 `../`）</label>
+- <input type="checkbox" name="部署失败-checklist" value="入口文件是-indexhtml" /> <label for="入口文件是-indexhtml">入口文件是 `index.html`</label>
 
 
 ## AI 反复给同样的错误答案

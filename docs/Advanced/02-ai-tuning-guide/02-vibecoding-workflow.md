@@ -1391,13 +1391,13 @@ graph TB
 ## 提示词自检清单
 
 发送提示词前检查：
-- [ ] 任务描述清晰具体
-- [ ] 提供了必要的上下文
-- [ ] 明确了输出格式
-- [ ] 给了 AI"不确定"的出口
-- [ ] 包含了必要的约束条件
-- [ ] 避免了冗长的角色设定
-- [ ] 没有包含敏感信息（API Key、密码等）
+- <input type="checkbox" name="提示词自检清单-checklist" value="任务描述清晰具体" /> <label for="任务描述清晰具体">任务描述清晰具体</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="提供了必要的上下文" /> <label for="提供了必要的上下文">提供了必要的上下文</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="明确了输出格式" /> <label for="明确了输出格式">明确了输出格式</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="给了-ai不确定的出口" /> <label for="给了-ai不确定的出口">给了 AI"不确定"的出口</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="包含了必要的约束条件" /> <label for="包含了必要的约束条件">包含了必要的约束条件</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="避免了冗长的角色设定" /> <label for="避免了冗长的角色设定">避免了冗长的角色设定</label>
+- <input type="checkbox" name="提示词自检清单-checklist" value="没有包含敏感信息api-key密码等" /> <label for="没有包含敏感信息api-key密码等">没有包含敏感信息（API Key、密码等）</label>
 
 ## 常见问题
 
