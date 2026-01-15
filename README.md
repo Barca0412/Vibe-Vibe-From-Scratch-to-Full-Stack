@@ -2,6 +2,11 @@
   <img src="./docs/public/logo.png" width="100" alt="Vibe Vibe"/>
 </p>
 
+<h1 align="center">Vibe Vibe（⚠️ Alpha内测版）</h1>
+
+> [!CAUTION]
+> ⚠️ **Alpha内测版本警告**：此为早期内部构建版本，尚不完整且可能存在错误，欢迎大家提Issue反馈问题或建议。
+
 # Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南
 > **面向零编程基础学习者的 AI 辅助编程系统化教程，从「我有一个想法」到「我做出了一个产品」，让人人都能成为 Builder。**
 
